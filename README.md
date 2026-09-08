@@ -1,1 +1,0 @@
-# alinur-realtor
