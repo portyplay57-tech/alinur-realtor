@@ -328,6 +328,23 @@ footer {
     font-size: 12px;
 }
 
+.object-card,
+.service,
+.about,
+.contact {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.object-card.show,
+.service.show,
+.about.show,
+.contact.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (max-width: 700px) {
 
     .header {
